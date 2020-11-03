@@ -1,5 +1,5 @@
 ---
-title: About
+title: Обо мне
 
 # The About page
 # v2.0
@@ -7,8 +7,6 @@ title: About
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
-
-# Обо мне
 
 ### 👋 Привет, меня зовут Артем
 
