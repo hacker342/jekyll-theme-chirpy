@@ -7,8 +7,8 @@
 
 panel:
   lastmod: "Последнее обновление"
-  trending_tags: "Популярные Теги"
-  toc: "Contents"
+  trending_tags: "Популярные теги"
+  toc: "Содержимое"
 
 post:
   relate_posts: "Популярные Теги"
