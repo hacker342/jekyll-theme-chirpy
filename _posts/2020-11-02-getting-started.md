@@ -2,8 +2,8 @@
 title: Обновление моего блога
 author: Кирьянов Артем
 date: 2020-11-02 19:00:00 +0300
-categories: [Сайты, jekyll]
-tags: [обновление сайта]
+categories: [Разработка сайтов, jekyll]
+tags: [Сайты]
 pin: true
 ---
 
