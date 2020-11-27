@@ -19,7 +19,8 @@ layout: default
         <!-- Published date and author -->
         <div>
           Posted
-          {% include timeago.html date=page.date tooltip=true %}
+          <!--{% include timeago.html date=page.date tooltip=true %} -->
+          {{ post.date | date: site.data.date_format.post }}
           by
           <span class="author">
           {% if page.author %}
