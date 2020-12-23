@@ -81,6 +81,7 @@ services:
 networks:
   jira:
   proxy: 
+
   ```
 
 Запускаем docker-compose up и docker запустит наши контейнеры и создаст дирректории наших проектов. 
@@ -132,6 +133,7 @@ server {
         proxy_redirect off;
     }
 }
+
 ```
 
 Выходим из конфигов и там где у нас docker файлы, создаем папку scripts и создаем файл init-letsencrypt.sh c таким вот содержаением: 
@@ -228,6 +230,7 @@ docker run -d  -p 5432:5432 \
     -e POSTGRES_PASSWORD=mysecretpassword \
     -v postgresData:/var/lib/postgresql/data \
     postgres:10
+    
 ```
 
 Мы конечно можем войти в контейнер и создать БД и все такое, но лучше было бы отобразить все это дело через интерфейс. 
