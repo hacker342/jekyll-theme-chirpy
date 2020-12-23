@@ -1,7 +1,7 @@
 ---
 title: Связка Confluence+Jira+Nginx(SSL) в Docker
 author: Кирьянов Артем
-date: 2020-12-21 12:21:00 +0300
+date: 2020-12-23 12:21:00 +0300
 categories: [It, DevOps]
 tags: [devops]
 ---
