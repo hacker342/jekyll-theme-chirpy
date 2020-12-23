@@ -230,7 +230,7 @@ docker run -d  -p 5432:5432 \
     -e POSTGRES_PASSWORD=mysecretpassword \
     -v postgresData:/var/lib/postgresql/data \
     postgres:10
-    
+
 ```
 
 Мы конечно можем войти в контейнер и создать БД и все такое, но лучше было бы отобразить все это дело через интерфейс. 
@@ -275,3 +275,6 @@ docker run -p 5050:80 \
 ![](https://i.ibb.co/XtQDpjz/pg-Admin-create-new-database-general.png)
 ![](https://i.ibb.co/bv461pW/pg-Admin-create-new-database-definition.png)
 ![](https://i.ibb.co/jGP6tkC/pg-Admin-create-new-database-definition-confluence.png)
+
+Повторите все тоже самое для confluence. После настроек, необходимы открыть наши веб-сервисы и произвести настройку confluence и jira.
+Для того чтобы confluence мог видеть jira контейнер, необходимо в настройках confluence указать IP адрес контейнера jira, который находится в одной сети docker. Какие-то шаги я не описывал, так как писал статью для себя, как заметку, но могу ответить вам в комментарии, если возникнут вопросы. 
