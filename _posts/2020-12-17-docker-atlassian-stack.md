@@ -15,7 +15,8 @@ tags: [devops]
 Заходим на наш сервер, создаем дирректорию, где у нас будет находится наши docker файлы. Создаем docker-compose.yml
 Пишем туда: 
 
-```version: "3"
+```
+version: "3"
 
 services:
 
