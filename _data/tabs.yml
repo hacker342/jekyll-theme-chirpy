@@ -29,9 +29,5 @@
   path: tabs
   url: about
 -
-  name: "Услуги"
-  icon: "fas fa-hand-holding-usd"
-  path: tabs
-  url: uslugi
 
 
