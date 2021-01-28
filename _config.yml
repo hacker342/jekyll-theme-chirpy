@@ -13,9 +13,8 @@ title: Артем Кирьянов                          # the main title
 tagline: Технический эксперт.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Говнокод, говноблок и просто сайт. Хостится на Github. 
+  Деплой через develop - guthub_actions - master - www
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://devopsme.ru'
