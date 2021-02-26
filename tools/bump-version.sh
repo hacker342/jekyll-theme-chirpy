@@ -1,12 +1,3 @@
-#!/usr/bin/env bash
-#
-# Bump latest version to file `_data/meta.yml`
-#
-# v2.5.1
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2020 Cotes Chung
-# Published under MIT License
-
 set -eu
 
 META_FILE="_data/meta.yml"

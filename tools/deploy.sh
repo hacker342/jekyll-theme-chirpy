@@ -1,12 +1,3 @@
-#!/bin/bash
-#
-# Deploy the content of _site to 'origin/<pages_branch>'
-#
-# v2.5
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2020 Cotes Chung
-# Published under MIT License
-
 set -eu
 
 PAGES_BRANCH="gh-pages"
